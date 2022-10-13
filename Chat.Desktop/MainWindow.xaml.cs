@@ -26,7 +26,7 @@ namespace Chat.Desktop
         public ObservableCollection<MessageViewModel> Messages { get; set; }
         public ObservableCollection<UserViewModel> Users { get; set; }
 
-        private const string BaseUri = "https://localhost:44354";
+        private const string BaseUri = "http://localhost";
 
         private readonly HttpClient httpClient;
 

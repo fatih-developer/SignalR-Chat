@@ -22,8 +22,8 @@ namespace Chat.Desktop.Views
     /// </summary>
     public partial class LoginWindow : Window
     {
-        private readonly string loginUrl = "https://localhost:44354/Identity/Account/Login";
-        private readonly string registerUrl = "https://localhost:44354/Identity/Account/Register";
+        private readonly string loginUrl = "http://localhost/Identity/Account/Login";
+        private readonly string registerUrl = "http://localhost/Identity/Account/Register";
 
         public LoginWindow()
         {
